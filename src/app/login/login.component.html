@@ -1,0 +1,37 @@
+<!-- <form action="autenticar()">
+
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" [(ngModel)]="usuario"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" [(ngModel)]="contrasena"><br><br>
+    <button type="submit"> Autenticar</button>
+
+</form>
+ -->
+
+<div class="login">
+    <div class="contenedor">
+        <div *ngIf="!exito">
+            <div>
+                <h1>Login</h1>
+                <div>
+                    <label>Usuario:</label><br>
+                    <input class="inputLogin" type="text" id="fname" name="fname" [(ngModel)]="usuario"
+                        autocomplete="off">
+                </div>
+                <div>
+                    <label>Contraseña:</label><br>
+                    <input class="inputLogin" type="password" id="lname" name="lname" [(ngModel)]="contrasena"
+                        autocomplete="off">
+                </div>
+            </div>
+            <div>
+                <button type="submit" (click)="autenticar()">Ingresar</button>
+            </div>
+        </div>
+        <div *ngIf="exito">
+            <h1>Gracias por realizar el login</h1>
+        </div>
+
+    </div>
+</div>

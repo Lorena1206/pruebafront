@@ -1,0 +1,31 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://i.pinimg.com/originals/d2/70/63/d270631b6488b420a548bf7e952772ae.jpg');
+    // background: rgb(162,172,213);
+    // background: linear-gradient(0deg, rgba(162,172,213,1) 100%, rgba(45,253,97,1) 100%);
+}
+
+.contenedor {
+
+    padding: 5px 10px;
+    border: PowderBlue 5px double;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: white;
+    //width: 30vw;
+    //height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(229,231,238);
+    background: linear-gradient(0deg, rgba(229,231,238,1) 100%, rgba(45,253,97,1) 100%);
+}
+
+.inputLogin{
+  margin: 10% 0;
+}
+
